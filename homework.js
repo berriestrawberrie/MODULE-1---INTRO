@@ -18,4 +18,4 @@ let student = {
     favoriteFoods: foods
 };          
 console.log("Student: " ,student);
-console.log(`The student's favorite foods are ${student.favoriteFoods}.`);
+console.log(`The student's favorite food is ${student.favoriteFoods[0]}.`);
